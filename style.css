@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200,400,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8vw;
+    font-family: 'Poppins';
+}
+
+.main-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.headline{
+    color: var(--grayish-blue);
+    font-weight: 200;
+}
+
+.headline-credit{
+    color: var(--very-dark-blue);
+    font-weight: 600;
+}
+
+.main-description{
+    color: var(--grayish-blue);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+p {
+    font-size: 15px;
+}
