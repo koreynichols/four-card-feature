@@ -35,7 +35,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 0;
+    padding: 5rem 0 4rem;
 }
 
 .headline{
@@ -56,4 +56,32 @@ main {
 
 p {
     font-size: 15px;
+    color: var(--grayish-blue);
+}
+
+.card {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 .8rem grey;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.light-blue {
+    background-image: linear-gradient(var(--cyan)2%, transparent 2%);
+}
+
+.red {
+    background-image: linear-gradient(var(--red)2%, transparent 2%)
+}
+
+.orange {
+    background-image: linear-gradient(var(--orange)2%, transparent 2%)
+}
+
+.dark-blue {
+    background-image: linear-gradient(var(--blue)2%, transparent 2%)
 }
