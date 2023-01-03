@@ -35,7 +35,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 0 4rem;
+    padding: 5rem 0 3rem;
 }
 
 .headline{
@@ -61,13 +61,22 @@ p {
 
 .card {
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     border-radius: .5rem;
     box-shadow: 0 0 .8rem grey;
 }
 
+.card p{
+    padding-bottom: 1rem;
+}
+
 .card-title {
     font-size: 1.25rem;
+}
+
+.card img{
+    float: right;
+    padding: 1rem;
 }
 
 .light-blue {
